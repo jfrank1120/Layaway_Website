@@ -4,6 +4,22 @@ html, body{
 	background:#ffffff;
 	margin: 0;
 }
-h1,h2,h3,h4 {
-    
+h1 {
+    margin-left: 100px;
+}
+tabItem {
+    border-width: thin;
+    background-color: #fffff4;
+    text-align: right;
+}
+tabText {
+    font-size: 30px;
+    margin-left: 50px;
+    text-transform:uppercase;
+    margin-top: 50;
+    border-width: medium;
+}
+signInArea {
+    background-color: "Red";
+    border-width: thick;
 }
