@@ -1,0 +1,202 @@
+html,
+body {
+  width: 100%;
+  font-size: 100%;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+  background: #ffffff;
+}
+h1 {
+  margin-top: 50px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.center {
+    text-align: center;
+    margin-left:auto !important;
+    margin-right:auto !important;
+}
+* {
+  box-sizing: border-box;
+}
+/* Index Page CSS */
+.sign_in_area {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #4d4d4d;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 3%;
+  border-style: solid;
+  border-color: black;
+}
+.white_text {
+  color: white;
+}
+.input_box {
+  margin-bottom: 5%;
+}
+
+.group_img {
+  width: 85%;
+  height: 85%;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
+/* About Us Page CSS */
+.info_area {
+  margin-left: 15%;
+  margin-right: 15%;
+  line-height: 1.75;
+}
+
+/* Gag List Page CSS */
+.gagTable {
+  margin-top: 3%;
+  width: 80%;
+  text-align: left;
+}
+
+th {
+  background-color: gray;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+td {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Members Page CSS */
+.founders_title_div {
+  background-color: gray;
+  padding-bottom: 1%;
+  margin-top: 1%;
+  margin-left: 33%;
+  margin-right: 33%;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5%;
+}
+
+/* Founders Area CSS */
+.founder_div {
+  margin-left: 5%;  
+  margin-top: 5%;
+  position: relative;
+  display: inline-block;
+  border-style: solid;
+  border-color: black;
+  border-width: 6px;
+  border-radius: 3%;
+}
+
+.founder_img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  opacity: 1;
+  display: block;
+}
+
+.name_plate {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
+}
+.founder_div:hover .founder_img {
+  opacity: 0.3;
+}
+
+.founder_div:hover .name_plate {
+  opacity: 1;
+}
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.members_div {
+  margin-left: 33%;
+}
+.members_table {
+  margin-top: 3%;
+}
+
+/* What's New Page CSS */
+li {
+  text-align: left;
+  margin-left: 15%;
+  padding-bottom: 1%;
+  font-size: 15pt;
+}
+
+.whats_new_area {
+  border-style: solid;
+  border-color: black;
+  border-width: 6pt;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 3%;
+  background-color: #DCDCDC;
+}
+
+.lemon_img {
+  padding-left: 30%;
+  margin-top: 2%;
+  height: 70%;
+  width: 70%;
+  
+}
+/* Navigation Area CSS */
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #4d4d4d;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
